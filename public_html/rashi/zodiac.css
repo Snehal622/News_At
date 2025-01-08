@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.zodiac-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.zodiac {
+  margin: 20px;
+  text-align: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.zodiac img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.zodiac-name {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.zodiac :hover {
+  background-color: rgb(187, 157, 157);
+  transition: transform 0.5s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.2);
+}
